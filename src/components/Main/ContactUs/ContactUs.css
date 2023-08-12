@@ -1,0 +1,49 @@
+.contact {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+.contact section {
+    margin: 10rem;
+    margin-bottom: -6rem;
+    padding: 3rem;
+    width: 65%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: hsl(219, 30%, 18%);
+}
+
+.contact h4 {
+    font-size: 2rem;
+}
+
+.contact form {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.contact form input{
+    width: 50%;
+    margin-right: 2rem;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 30px;
+    color: black;
+}
+
+.contact form input:focus{
+    outline: none;
+}
+
+.contact form button {
+    width: 30%;
+    height: 3rem;
+}

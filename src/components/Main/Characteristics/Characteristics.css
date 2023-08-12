@@ -1,0 +1,55 @@
+.charact {
+    margin-top: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.charact section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.charact section div {
+    width: 40%;
+    margin: 2rem;
+}
+
+.charact h3 {
+    font-size: 1.5rem;
+}
+
+.charact img {
+    width: 4rem;
+}
+
+@media (max-width: 391px) {
+    .charact {
+        margin-top: 0rem;
+    }
+    
+    
+    .charact section {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .charact section div {
+        width: 70%;
+        margin: 1rem;
+    }
+
+    .charact h3 {
+        font-size: 0.6rem;
+    }
+
+    .charact img {
+        width: 4rem;
+    }
+}

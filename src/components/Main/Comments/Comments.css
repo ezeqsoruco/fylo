@@ -1,0 +1,155 @@
+.comments {
+    margin-top: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.comments img {
+    width: 35rem;
+}
+
+.comments-title strong {
+    font-size: 2rem;
+    display: block;
+    width: 60%;
+}
+
+.comments section {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.comments section p {
+    margin-bottom: 2rem;
+}
+
+.comments section a {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    color: hsl(176, 68%, 64%);
+}
+
+.comments section a span {
+    color: hsl(176, 68%, 64%);
+}
+
+.comments .arrow {
+    width: 1.5rem;
+    margin: 0;
+    margin-left: 1rem;
+}
+
+.testimonials {
+    margin-top: 7rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+}
+
+.cuotes {
+    width: 4rem;
+    position: absolute;
+    left: 8.5rem;
+    top: -3.8rem;
+}
+
+.testimonials .opinion {
+    width: 26%;
+    padding: 3rem;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 3px;
+    z-index: 1;
+}
+
+.testimonials .opinion img {
+    width: 2rem;
+    margin: 0;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.opinion-perfil {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.opinion-perfil span p {
+    margin-top: 0.2rem;
+    font-size: 0.5rem;
+}
+
+@media (max-width: 391px) {
+    .comments {
+        margin-top: 3rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comments img {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    .comments-title strong {
+        font-size: 0.8rem;
+        display: block;
+        width: 100%;
+    }
+
+    .comments section p {
+        margin-bottom: 1rem;
+    }
+
+    .comments .arrow {
+        width: 0.8rem;
+    }
+
+    .testimonials {
+        margin-top: 7rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cuotes {
+        width: 1rem;
+        left: 6.5rem;
+        top: -2rem;
+    }
+
+    .testimonials .opinion {
+        width: 45%;
+        padding: 1rem;
+    }
+
+    .testimonials .opinion img {
+        width: 1.3rem;
+    }
+
+    .opinion-perfil {
+        margin-top: 1rem;
+    }
+
+    .opinion-perfil span h6 {
+        font-size: 0.5rem;
+    }
+
+    .opinion-perfil span p {
+        margin-top: 0.2rem;
+        font-size: 0.5rem;
+    }
+}

@@ -1,0 +1,54 @@
+.intro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-img{
+    width: 33rem;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.intro-txt{
+    width: 36%;
+    text-align: center;
+}
+
+.intro-txt p {
+    padding: 3rem;
+    padding-top: 0;
+}
+
+.intro-txt button {
+    width: 15rem;
+    height: 3rem;
+}
+
+@media (max-width: 391px) {
+    .intro-img{
+        width: 18rem;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+
+    .intro-txt{
+        width: 75%;
+    }
+
+    .intro-txt p {
+        padding: 0rem;
+        padding-top: 0;
+    }
+
+    .intro-txt button {
+        width: 15rem;
+        height: 3rem;
+        margin-top: 2rem;
+    }
+}

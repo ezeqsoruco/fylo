@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+  }
+
+  body {
+    font-family: 'Raleway', sans-serif;
+    word-spacing: 3px;
+  }
+
+  @media (max-width: 391px) {
+    p, span {
+      font-size: 0.5rem;
+    }
+  }
+  
